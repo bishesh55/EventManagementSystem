@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Event Management System
  I've used MaterialUI ,Tailwind and Tsx as mentioned in the task.
  Here we can simply add, edit , view and delete events.
@@ -11,3 +12,6 @@ React Router DOM - Client-side routing
 React Hook Form - Form handling and validation
 Zod - Schema validation
 Local Storage - Data persistence
+=======
+# EventManagementSystem
+>>>>>>> b882833588b691b1b7d82aeefd2a4e5aea3af1e7
