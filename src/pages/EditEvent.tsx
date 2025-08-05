@@ -8,7 +8,6 @@ import {
     Typography,
     Paper,
     Grid,
-    Alert,
     CircularProgress,
 } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -61,7 +60,7 @@ const EditEvent: React.FC = () => {
         }
     }, [event, reset]);
 
-    
+
     useEffect(() => {
         if (watchedVenue && watchedDate && id) {
             if (checkVenueDateCollision(watchedVenue, watchedDate, id)) {

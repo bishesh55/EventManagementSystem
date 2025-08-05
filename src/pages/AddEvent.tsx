@@ -8,11 +8,6 @@ import {
     Typography,
     Paper,
     Grid,
-    Alert,
-    FormControl,
-    InputLabel,
-    Select,
-    MenuItem,
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useEventContext } from '../context/EventContext';
@@ -46,7 +41,7 @@ const AddEvent: React.FC = () => {
     const watchedVenue = watch('venue');
     const watchedDate = watch('date');
 
-   
+
     React.useEffect(() => {
         if (watchedVenue && watchedDate) {
             if (checkVenueDateCollision(watchedVenue, watchedDate)) {
